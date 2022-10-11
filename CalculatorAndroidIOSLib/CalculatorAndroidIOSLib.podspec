@@ -2,13 +2,13 @@ Pod::Spec.new do |spec|
     spec.name                     = 'CalculatorAndroidIOSLib'
     spec.version                  = '1.0'
     spec.homepage                 = 'Link to the Shared Module homepage'
-    spec.source                   = { :http=> ''}
+    spec.source                   = { :git => 'https://github.com/LeartBytyqi1/CalculatorAndroidIOSLib'}
     spec.authors                  = ''
     spec.license                  = ''
     spec.summary                  = 'Some description for the Shared Module'
     spec.vendored_frameworks      = 'build/cocoapods/framework/CalculatorAndroidIOSLib.framework'
     spec.libraries                = 'c++'
-    spec.ios.deployment_target = '14.1'
+    spec.ios.deployment_target = '14.0'
                 
                 
     spec.pod_target_xcconfig = {
