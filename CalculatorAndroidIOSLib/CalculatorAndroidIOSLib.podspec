@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
     spec.name                     = 'CalculatorAndroidIOSLib'
     spec.version                  = '1.0'
     spec.homepage                 = 'Link to the Shared Module homepage'
-    spec.source                   = { :git => 'https://github.com/LeartBytyqi1/CalculatorAndroidIOSLib'}
+    spec.source                   = { :http=> ''}
     spec.authors                  = ''
     spec.license                  = ''
     spec.summary                  = 'Some description for the Shared Module'

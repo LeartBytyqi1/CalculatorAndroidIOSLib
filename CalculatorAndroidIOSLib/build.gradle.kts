@@ -13,6 +13,7 @@ kotlin {
     cocoapods {
         summary = "Some description for the Shared Module"
         homepage = "Link to the Shared Module homepage"
+        source = "https://github.com/LeartBytyqi1/CalculatorAndroidIOSLib.git"
         version = "1.0"
         ios.deploymentTarget = "14.0"
         framework {
